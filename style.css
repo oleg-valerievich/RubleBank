@@ -1,0 +1,500 @@
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+.top-header {
+  border-bottom: 1px solid#DEDEDE;
+}
+
+.container {
+  width: 1140px;
+  margin: 0 auto;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.flex-sb {
+  justify-content: space-between;
+}
+
+.text-blue {
+  color: #3a95ff;
+}
+
+.logo {
+  margin-right: 30px;
+}
+
+.top-menu {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 60px;
+  align-items: center;
+  font-size: 14px;
+}
+
+.top-menu-l {
+  display: flex;
+  height: 60px;
+  justify-content: space-between;
+  align-items: center;
+  width: 340px;
+  list-style: none;
+}
+
+.top-menu-r {
+  display: flex;
+  height: 60px;
+  justify-content: space-between;
+  align-items: center;
+  width: 320px;
+  list-style: none;
+}
+
+.main-menu-x {
+  border-bottom: 1px solid #dedede;
+}
+
+.bordert {
+  border-bottom: 1px solid #dedede;
+}
+
+.main-menu-list {
+  width: 1140px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  height: 50px;
+}
+
+.main-menu-list a {
+  text-decoration: none;
+}
+
+.main-banner l {
+  box-shadow: 0px 4px 20px rgb (0 0 0/10%);
+}
+
+.main-banner-l h1 {
+  font-size: 52px;
+  margin-top: 60px;
+  margin-bottom: 50px;
+}
+
+.btn {
+  font-size: 16px;
+  width: 200px;
+  height: 55px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 3px;
+  font-weight: 600;
+  line-height: 130%;
+  margin-right: 30px; /*отступ между кнопками */
+}
+
+.btn-blue {
+  background-color: #3a95ff;
+  border: 1px solid #3a95ff;
+}
+
+.btn-transparent {
+  border-color: #f5f6f8;
+  border: 1px solid #3a95ff;
+}
+
+.best-offers {
+  align-items: center;
+}
+
+.best-offers-b {
+  position: relative;
+  margin-bottom: 145px;
+}
+
+.best-offers-c {
+  position: relative;
+  margin-top: 145px;
+}
+
+.section-item {
+  padding: 20px;
+}
+
+.cotegory {
+  width: 1140px;
+  margin: 0 auto;
+}
+
+.ipoteka {
+  height: 32px;
+  position: relative;
+}
+
+.top-left {
+  position: absolute;
+  top: 18px;
+  left: 45px;
+}
+
+.nakoplenie {
+  height: 32px;
+  position: relative;
+}
+
+.bottom-left {
+  position: absolute;
+  top: 18px;
+  left: 45px;
+  margin-top: 80px;
+}
+
+.bottom-right {
+  position: absolute;
+  top: 18px;
+  left: 45px;
+  margin-top: 80px;
+}
+
+.top-right {
+  position: absolute;
+  top: 18px;
+  left: 45px;
+}
+
+.cardklient {
+  height: 32px;
+  position: relative;
+  padding-top: 100px;
+}
+
+.programcard {
+  height: 32px;
+  position: relative;
+  padding-top: 100px;
+}
+
+.knopka-top {
+  top: 18px;
+  left: 45px;
+  padding-top: 100px;
+}
+
+.standart {
+  position: relative;
+}
+
+.knopka-bottom {
+  top: 166px;
+  left: 45px;
+  padding-top: 96px;
+}
+
+a {
+  display: inline-block;
+  color: black;
+}
+
+.cards-background {
+  background-color: #eff2f5;
+  margin-top: 300px;
+}
+
+.cards-container {
+  margin: 0 auto;
+  width: 1140px;
+  height: 775px;
+  display: flex;
+  align-items: center;
+  column-gap: 30px;
+}
+
+.creditkard {
+  display: flex;
+  flex-direction: column;
+  background-color: #e0e5ea;
+  box-shadow: -5px -5px 25px rgba(255, 255, 255, 0.25),
+    5px 5px 15px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  width: 750px;
+  height: 500px;
+  padding-left: 9px;
+  margin-top: 850px;
+}
+
+.creditkard-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.centered {
+  top: 60%;
+  left: 35%;
+  transform: translate(-50%, -50%);
+}
+
+.centered h1 {
+  position: relative;
+  width: 346px;
+  height: 532px;
+  left: 430px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 38px;
+  line-height: 130%;
+  margin-top: 95px;
+}
+
+.tekst-one {
+  display: flex;
+  width: 400px;
+  height: 31px;
+  margin-left: 65px;
+  margin-top: -280px;
+  margin-bottom: 200px;
+  font-family: "Montserrar";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 130%;
+}
+
+.tekst-two {
+  display: flex;
+  width: 400px;
+  height: 31px;
+  margin-left: 265px;
+  margin-top: -232px;
+  margin-bottom: 270px;
+  font-family: "Montserrar";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 130%;
+}
+
+.tekst-three {
+  display: flex;
+  width: 400px;
+  height: 31px;
+  margin-left: 445px;
+  margin-top: -301px;
+  margin-bottom: 450px;
+  font-family: "Montserrar";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 130%;
+}
+
+.knopki-menu {
+  margin-top: -865px;
+  margin-bottom: 825px;
+  margin-left: 50px;
+}
+
+.tekst-one-niz {
+  width: 82px;
+  height: 46px;
+  margin-left: 100px;
+  margin-top: -400px;
+  margin-bottom: 500px;
+  font-family: "Montserrar";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 130%;
+  text-align: center;
+  color: #424242;
+}
+
+.tekst-two-niz {
+  width: 82px;
+  height: 46px;
+  margin-left: 280px;
+  margin-top: -550px;
+  margin-bottom: 620px;
+  font-family: "Montserrar";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 130%;
+  text-align: center;
+  color: #424242;
+}
+
+.tekst-three-niz {
+  width: 92px;
+  height: 46px;
+  margin-left: 450px;
+  margin-top: -665px;
+  margin-bottom: 900px;
+  font-family: "Montserrar";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 130%;
+  text-align: center;
+  color: #424242;
+}
+
+.knopki-right-menu {
+  display: flex;
+}
+
+.textcreditcards {
+  width: 159px;
+  height: 68px;
+  margin-left: -240px;
+  margin-top: 100px;
+  font-family: "Montserrar";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 26px;
+  line-height: 130%;
+}
+
+.textdebitcards {
+  width: 159px;
+  height: 68px;
+  margin-right: -950px;
+  margin-left: -220px;
+  padding-left: 65px;
+  margin-top: 387px;
+  font-family: "Montserrar";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 26px;
+  line-height: 130%;
+}
+
+.ramkacreditcards {
+  width: 280px;
+  height: 235px;
+  margin-left: 10px; /*Сдвинуть контейнеры влево - вправо*/
+  margin-top: 80px;
+  background: #f7f7f7b7;
+  box-shadow: -5px -5px 25px rgba(255, 255, 255, 0.25),
+    5px 5px 25px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+.ramkadebitcards {
+  width: 280px;
+  height: 235px;
+  margin-left: -280px;
+  margin-top: 380px;
+  background: #f7f7f7;
+  box-shadow: -5px -5px 25px rgba(255, 255, 255, 0.25),
+    5px 5px 25px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+.stripe-one {
+  width: 280px;
+  height: 7px;
+  margin-left: 750px;
+  margin-top: 310px;
+  background: #3a95ff;
+  box-shadow: -5px 5px 25px rgba(255, 255, 255, 0.25),
+    5px 5px 25px rgba(0, 0, 0, 0.1);
+  border-radius: 0px 0px 8px 8px;
+}
+
+.stripe-two {
+  width: 280px;
+  height: 7px;
+  margin-left: -278px;
+  margin-top: 610px;
+  background: #3a95ff;
+  box-shadow: -5px 5px 25px rgba(255, 255, 255, 0.25),
+    5px 5px 25px rgba(0, 0, 0, 0.1);
+  border-radius: 0px 0px 8px 8px;
+}
+
+.debetcard {
+  justify-content: flex-end;
+  text-align: center;
+  top: 50%;
+  right: 350%;
+  transform: translate(-50%, -50%);
+  color: rgb(5, 5, 5);
+}
+
+.maket-polucheniekartu {
+  justify-content: center;
+}
+
+.polucheniekartu {
+  width: 1140px;
+  margin: 0 auto;
+  display: block;
+  padding-top: 50px;
+  margin-bottom: -210px;
+}
+
+.polucheniekartuknopki {
+  display: flex;
+  margin-top: 30px;
+}
+
+.pre-footer-one-top {
+  padding-left: 110px;
+  padding-right: 160px;
+}
+
+.pre-footer-two-top {
+  padding-left: 110px;
+  padding-right: 140px;
+}
+
+.pre-footer-three-top {
+  padding-left: 120px;
+}
+
+.cards-footer {
+  background-color: #eff2f5;
+  margin-top: 100px;
+  padding-bottom: 100px;
+  padding-top: px;
+}
+
+.cards-container-footer {
+  margin: 0 auto;
+  width: 1140px;
+  height: 70px;
+  margin-top: 275px;
+  margin-bottom: 125px;
+  display: flex;
+  align-items: center;
+  column-gap: 80px;
+}
+
+.footer-menu-left {
+  width: 420px;
+  padding-top: 220px;
+}
+
+.footer-menu-center {
+  width: 420px;
+  padding-top: 220px;
+}
+
+.footer-menu-right {
+  width: 420px;
+  padding-top: 220px;
+}
